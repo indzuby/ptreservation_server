@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_delete: 1
+  trainer_id: 
+  customer_id: 
+  start_datetime: 
+  end_datetime: 
+
+two:
+  is_delete: 1
+  trainer_id: 
+  customer_id: 
+  start_datetime: 
+  end_datetime: 

@@ -1,0 +1,41 @@
+<%= form_for(@customer) do |f| %>
+  <% if @customer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@customer.errors.count, "error") %> prohibited this customer from being saved:</h2>
+
+      <ul>
+      <% @customer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <div class="field">
+      <%= f.label :email %><br>
+      <%= f.email_field :email %>
+    </div>
+    <div class="field">
+      <%= f.label :password %><br>
+      <%= f.password_field :password %>
+    </div>
+    <div class="field">
+      <%= f.label :name %><br>
+      <%= f.text_field :name %>
+    </div>
+    <div class="field">
+      <%= f.label :tel %><br>
+      <%= f.telephone_field :tel %>
+    </div>
+    <div class="field">
+      <%= f.label :sex %><br>
+      남 <%= f.radio_button :sex, 1 %>
+      여 <%= f.radio_button :sex, 2 %>
+    </div>
+    <div class="field">
+      <%= f.label :pt_count %><br>
+      <%= f.number_field :pt_count %>
+    </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

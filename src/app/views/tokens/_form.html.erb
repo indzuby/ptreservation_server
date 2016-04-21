@@ -1,0 +1,33 @@
+<%= form_for(@token) do |f| %>
+  <% if @token.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@token.errors.count, "error") %> prohibited this token from being saved:</h2>
+
+      <ul>
+      <% @token.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :is_delete %><br>
+    <%= f.number_field :is_delete %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :device_token %><br>
+    <%= f.text_field :device_token %>
+  </div>
+  <div class="field">
+    <%= f.label :access_token %><br>
+    <%= f.text_field :access_token %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

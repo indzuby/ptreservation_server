@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Is delete:</strong>
+  <%= @reservation.is_delete %>
+</p>
+
+<p>
+  <strong>Trainer:</strong>
+  <%= @reservation.trainer %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @reservation.customer %>
+</p>
+
+<p>
+  <strong>Start datetime:</strong>
+  <%= @reservation.start_datetime %>
+</p>
+
+<p>
+  <strong>End datetime:</strong>
+  <%= @reservation.end_datetime %>
+</p>
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>

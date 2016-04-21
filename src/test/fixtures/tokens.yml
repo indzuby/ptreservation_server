@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_delete: 1
+  user_id: 
+  device_token: MyString
+  access_token: MyString
+
+two:
+  is_delete: 1
+  user_id: 
+  device_token: MyString
+  access_token: MyString
