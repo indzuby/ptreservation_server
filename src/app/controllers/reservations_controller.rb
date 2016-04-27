@@ -1,9 +1,10 @@
 class ReservationsController < ApplicationController
   before_action :set_reservation, only: [:show, :edit, :update, :destroy]
 
-  before_action :get_customer_by_tokens, only: [:list_date, :list_month, :list_week]
+  before_action :checked_login
 
-  before_action :get_users_by_tokens, only: [:add]
+  before_action :get_customer, only: [:list_date, :list_month, :list_week, :add]
+
 
 # date format = 'yyyy-mm-dd'
 
@@ -68,7 +69,7 @@ class ReservationsController < ApplicationController
   def add
     @reservation = Reservation.new(reservation_add_params)
     @reservation.customer_id = @customer.id
-    @reservation.trainer_id = @trainer.id
+    @reservation.trainer_id = params[:trainer_id]
     if @reservation.save
       render :json => @reservation, status: :created
       else
@@ -108,19 +109,14 @@ class ReservationsController < ApplicationController
 
 # Never trust parameters from the scary internet, only allow the white list through.
   def reservation_params
-    params.require(:reservation).permit(:is_delete, :trainer_id, :customer_id, :start_datetime, :end_datetime)
+    params.require(:reservation).permit(:is_delete, :trainer_id, :customer_id, :start_datetime, :end_datetime,:memo)
   end
   def reservation_add_params
-    params.require(:reservation).permit(:is_delete, :start_datetime, :end_datetime)
+    params.require(:reservation).permit(:is_delete, :start_datetime, :end_datetime, :memo)
   end
 
-  def get_customer_by_tokens
-    @customer = Customer.find_by_user_id(Token.find_by_access_token(params[:customers_token]).user_id)
+  def get_customer
+    @customer = Customer.find_by_user_id(@usr.id)
   end
 
-
-  def get_users_by_tokens
-    get_customer_by_tokens
-    @trainer = Trainer.find_by_user_id(Token.find_by_access_token(params[:trainer_token]).user_id)
-  end
 end

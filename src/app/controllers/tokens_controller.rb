@@ -69,6 +69,6 @@ class TokensController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def token_params
-      params.require(:token).permit(:is_delete, :user_id, :device_token, :access_token)
+      params.require(:token).permit(:is_delete, :user_id, :device_token)
     end
 end
