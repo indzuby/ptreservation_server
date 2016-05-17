@@ -9,7 +9,14 @@ class LoginController < ApplicationController
     if usr then
       reset_session
       session[:usr] = usr.id
-      render nothing: true, status: :ok
+
+      customer = Customer.find_by_user_id(user.id)
+      if customer.nil?
+        render nothing: true, status: 200
+      else
+        render nothing: true, status: 201
+      end
+
     else
       render nothing: true, status: :not_found
     end

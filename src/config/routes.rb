@@ -15,10 +15,15 @@ Rails.application.routes.draw do
 
   controller :reservations do
     # date format = 'yyyy-mm-dd'
-    get 'reservations/date/:date' => :list_date, as: 'listByDate'
-    get 'reservations/week/:date' => :list_week, as: 'listByWeek'
-    get 'reservations/month/:year/:month/' => :list_month, as: 'listByMonth'
+    get 'reservations/customer/date/:date' => :customer_list_date, as: 'customerListByDate'
+    get 'reservations/customer/week/:date' => :customer_list_week, as: 'customerListByWeek'
+    get 'reservations/customer/month/:year/:month/' => :customer_list_month, as: 'customerListByMonth'
     post 'reservations/add' => :add, as: 'addReservation'
+
+    get 'reservations/trainer/date/:date' => :trainer_list_date, as: 'trainerListByDate'
+    get 'reservations/trainer/week/:date' => :trainer_list_week, as: 'trainerListByWeek'
+    get 'reservations/trainer/month/:year/:month/' => :trainer_list_month, as: 'trainerListByMonth'
+
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

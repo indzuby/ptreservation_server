@@ -3,17 +3,18 @@ class ReservationsController < ApplicationController
 
   before_action :checked_login
 
-  before_action :get_customer, only: [:list_date, :list_month, :list_week, :add]
+  before_action :get_customer, only: [:customer_list_date, :customer_list_month, :customer_list_week, :add]
 
+  before_action :get_trainer, only: [:trainer_list_date, :trainer_list_month, :trainer_list_week]
 
 # date format = 'yyyy-mm-dd'
 
-  def list_date
+  def customer_list_date
     @reservations = Reservation.where("customer_id = ? and DATE(start_datetime) = ?", @customer.id, params[:date]).order("start_datetime ASC")
     render :json => @reservations,status: :ok
   end
 
-  def list_week
+  def customer_list_week
     time = Time.zone.parse(params[:date]+ " 00:00:00")
 
     startDateWeek = time.beginning_of_week
@@ -24,8 +25,31 @@ class ReservationsController < ApplicationController
 
   end
 
-  def list_month
+  def customer_list_month
     @reservations = Reservation.where("customer_id = ? and YEAR(start_datetime) = ? and MONTH(start_datetime) = ?", @customer.id, params[:year], params[:month]).order("start_datetime ASC")
+    render :json => @reservations,status: :ok
+  end
+
+
+
+  def trainer_list_date
+    @reservations = Reservation.where("trainer_id = ? and DATE(start_datetime) = ?", @trainer.id, params[:date]).order("start_datetime ASC")
+    render :json => @reservations,status: :ok
+  end
+
+  def trainer_list_week
+    time = Time.zone.parse(params[:date]+ " 00:00:00")
+
+    startDateWeek = time.beginning_of_week
+    endDateWeek = time.beginning_of_week + 7.days
+    @reservations = Reservation.where("trainer_id = ? and start_datetime>=? and start_datetime<?",@trainer.id,startDateWeek,endDateWeek).order("start_datetime ASC")
+
+    render :json => @reservations,status: :ok
+
+  end
+
+  def trainer_list_month
+    @reservations = Reservation.where("trainer_id = ? and YEAR(start_datetime) = ? and MONTH(start_datetime) = ?", @trainer.id, params[:year], params[:month]).order("start_datetime ASC")
     render :json => @reservations,status: :ok
   end
 
@@ -117,6 +141,10 @@ class ReservationsController < ApplicationController
 
   def get_customer
     @customer = Customer.find_by_user_id(@usr.id)
+  end
+
+  def get_trainer
+    @trainer = Trainer.find_by_user_id(@usr.id)
   end
 
 end

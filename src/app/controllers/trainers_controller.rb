@@ -62,9 +62,14 @@ class TrainersController < ApplicationController
   # DELETE /trainers/1
   # DELETE /trainers/1.json
   def destroy
-    user_id = @trainer.user_id
-    @trainer.destroy
-    User.delete(user_id)
+    if @trainer.is_delete == true
+      user_id = @trainer.user_id
+      @trainer.destroy
+      User.delete(user_id)
+    else
+      @trainer.is_delete = true
+      @trainer.save
+    end
     respond_to do |format|
       format.html { redirect_to trainers_url, notice: 'Trainer was successfully destroyed.' }
       format.json { head :no_content }
