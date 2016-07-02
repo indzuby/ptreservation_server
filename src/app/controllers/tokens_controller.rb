@@ -1,6 +1,5 @@
 class TokensController < ApplicationController
   before_action :set_token, only: [:show, :edit, :update, :destroy]
-
   # GET /tokens
   # GET /tokens.json
   def index

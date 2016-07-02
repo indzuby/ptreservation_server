@@ -5,11 +5,13 @@ class TrainersController < ApplicationController
   # GET /trainers.json
   def index
     @trainers = Trainer.all
+    render :json => @trainers,:include => [:company,:user] ,status: :ok
   end
 
   # GET /trainers/1
   # GET /trainers/1.json
   def show
+    render :json => @trainer,:include => [:company,:user] ,status: :ok
     @company_form = {company_name: @trainer.company.name, company_tel: @trainer.company.tel, company_address: @trainer.company.address}
   end
 

@@ -1,8 +1,7 @@
 class LoginController < ApplicationController
 
 
-  before_action :checked_login, only: [:update_password,:logout]
-
+    before_action :checked_login, only: [:update_password,:logout]
 
   def login
     usr = User.authenticate(params[:email], params[:password])
@@ -10,11 +9,12 @@ class LoginController < ApplicationController
       reset_session
       session[:usr] = usr.id
 
-      customer = Customer.find_by_user_id(user.id)
+      customer = Customer.find_by_user_id(usr.id)
+      trainer = Trainer.find_by_user_id(usr.id)
       if customer.nil?
-        render nothing: true, status: 200
+        render :json => {:name => usr.name,:id => trainer.id}, status: 200
       else
-        render nothing: true, status: 201
+        render :json => {:name => usr.name,:id => customer.id}, status: 201
       end
 
     else
@@ -28,8 +28,8 @@ class LoginController < ApplicationController
   end
 
   def dup_email
-    @user = User.find_by_email(params[:email])
-    if @user.nil?
+    @usr = User.find_by_email(params[:email])
+    if @usr.nil?
       render nothing: true, status: :ok
     else
       render nothing: true, status: :multi_status

@@ -15,15 +15,19 @@ Rails.application.routes.draw do
 
   controller :reservations do
     # date format = 'yyyy-mm-dd'
-    get 'reservations/customer/date/:date' => :customer_list_date, as: 'customerListByDate'
-    get 'reservations/customer/week/:date' => :customer_list_week, as: 'customerListByWeek'
-    get 'reservations/customer/month/:year/:month/' => :customer_list_month, as: 'customerListByMonth'
+    get 'reservations/customer/:customer_id/date/:date' => :customer_list_date, as: 'customerListByDate'
+    get 'reservations/customer/:customer_id/week/:date' => :customer_list_week, as: 'customerListByWeek'
+    get 'reservations/customer/:customer_id/month/:year/:month/' => :customer_list_month, as: 'customerListByMonth'
     post 'reservations/add' => :add, as: 'addReservation'
 
-    get 'reservations/trainer/date/:date' => :trainer_list_date, as: 'trainerListByDate'
-    get 'reservations/trainer/week/:date' => :trainer_list_week, as: 'trainerListByWeek'
-    get 'reservations/trainer/month/:year/:month/' => :trainer_list_month, as: 'trainerListByMonth'
+    get 'reservations/trainer/:trainer_id/date/:date' => :trainer_list_date, as: 'trainerListByDate'
+    get 'reservations/trainer/:trainer_id/week/:date' => :trainer_list_week, as: 'trainerListByWeek'
+    get 'reservations/trainer/:trainer_id/month/:year/:month/' => :trainer_list_month, as: 'trainerListByMonth'
 
+  end
+
+  controller :customers do
+    get 'trainers/:trainer_id/customers' => :get_customer_by_trainer, as: 'customerListByTrainerId'
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

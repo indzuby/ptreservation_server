@@ -153,7 +153,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.0.0, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.8.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.2, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.4.3, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.4.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.7.2, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, ruby-2.0.0-p645) [gem]" level="application" />

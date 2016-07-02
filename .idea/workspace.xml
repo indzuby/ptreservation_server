@@ -2,264 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3271d899-d06c-4905-811e-acb02d8ae269" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/companies.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/reservations.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/trainers.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/companies.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/reservations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/trainers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/companies_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/reservations_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/trainers_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/companies_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/reservations_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/trainers_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/company.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/concerns/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/reservation.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/trainer.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/companies/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/reservations/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trainers/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/bundle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/rails" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/rake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/setup" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160411113108_create_users.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160411113546_create_companies.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160411114435_create_trainers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160411114502_create_reservations.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160411120347_remove_reservation_datetime_from_reservations.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160411120601_add_start_datetime_to_reservations.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160412093211_fix_column_type.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/development.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/test.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/422.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/500.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/companies_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/reservations_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/trainers_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/companies.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/reservations.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/trainers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/company_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/reservation_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/trainer_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-8/-8KKo2p3qjEXCYHhfkVLRYVTAk8n_6dxw8geAOrmd8E.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-z/-zJ5nfQClGODzoAJD3zVm96csF3Z7lEaU-hGML8cA9Q.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1I/1IpV4U3B9QgrckkDiI0F4OE8EkUHevggL5mjzZVMtd0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1N/1NfJMd4tmy-DGJz-BzsrervlCFBeyOgWJXKWmyolkBc.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1X/1XSFteGdYjL4i3iJREiIzqzBObosLMuTIwUgxXCimZA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1c/1cB1rj78TJKToB8bmzSsNHKjswlaVAPeGU_K3WdswbQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1j/1jIXlTwzosfNU-IpBAHPLx4kSqCDRi3nebMEZRPWa64.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1q/1qEIyDSokTO3VpnsOlmNjC7s-3ZJEoartjHMvr76-vg.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3-/3-vP4A7wt3vipJfOExypC6uxlP7NFpQf8RGgby8DA5Q.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3z/3z5E3ZI3qlRrsRLXsj7eazyZLV_V6xLu2-jh2yahk0M.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/42/42OLYiQkDUIJot7CxlgYGGEjUKJ3xleXVKn9HRuTGIo.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4_/4_A89EOegfVruqRhrkhPmo_MBVYT_f1CEyoJxluCet0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4d/4do1Ko1nKQyIDGua3OnVaNtyen4pl79MoS0TYSHNdLY.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4x/4xlLdiA-bm8lPvuovKlShJkcJzhGu3ps75QcWE6-9Js.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/53/53xu9DnRg5pa_WHkiX8MImrAPZ0Xiwfx-JAWBU6ET2Y.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5L/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5i/5iDShxFGADu-o--epJpo1QTC2xesO35DotlLMVqHNaE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6O/6OjBaSChVO3riPbdAQkFzmhGjgRaoYo6PCBfJZIe5ug.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6x/6xnviFLug06lPwBTurtmmqLWr67efQ9MbcO6hSjh2Uw.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7T/7TLp5B5UUq1zvolQ_tmxznVyPgb52DRd8bNckxWTeFM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7c/7cuTSrwxtM1D5ZFD35vcy8wiWjLCOXMR54qgiGO8Hb0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7x/7xFSPQGe2_IjavB_vbP4zYlauPqEW_cLp8PR9rxMTSs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/83/83aq5CQcto96oEIjpkXaFvS9o6YjTTiyNSDQFIP59MA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/93/93KieZF-ioyqEW6NvfEwF5fK0pSMhN_IqD2gebmM0sE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9j/9ju7UI4OaONj5K0nkMUPwxk9YVhPETVkBCftCJfx1Qk.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9t/9tWvH0kDeUUpsEh82nGfmlMLOx5I2g6buHHEjFKtSvk.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AB/ABcEMZaGuE1A2Jat4dmxVweJHhzfvmkb_W24hvd-wXo.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AP/APY89OAPJx9A3D3xcCoktvEvQUs7NcWChYXnjjjPzz0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AT/ATl91moRYw1G-cFMTt_gMsd8Pc3RN3EbLjBIDD17GrE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ac/Acr43vaZVA4ST0hjK9SdueSVFmxbYnBoZPQi8nnkgak.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/B-/B-iBdO-lFI-B_P3CHkO-diPUmZl9bGusyGZSK-ENqm0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BJ/BJbYC3D3f-eU9RCTslZF2qabF192-vXMvejlA8PZjBM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BR/BRZ5hJWbzxtjlRUSKK4Uxa8-sYhU_wc7y5OuQZwKZDQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bu/BuIiPTeVR9ATnDD6jYSuWzCEJfwUGIDJSztcduyznbI.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bx/BxDSfGg7rXHaHdldoq6w7YbIM32ZGHDAR1oeiwLJc0o.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DS/DSOLSc6A5RVSmvM415eEWAWG_AgOvZcLZOXQjsXyWQA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dm/DmoE5HnZGNTZlp4VdDSimV4JKsXYehBhjJ1N8Wto3NA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dx/DxNxUAVx0AQ6g45p_Z8CnHbUBQRgSsx6DppKMTV0PLA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dx/DxTSBif1J8J9tM2jXvvmD3-FHhfTiAtXHCTB0G24v8g.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EB/EBtbhweQl74JQNkwFL3ahZH_9x44ceqa9hOT8lQ_SfM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fo/FoUto_9Xc71Yj6OYkBrE33AkX7n0ZCgeT1oo8zB_6PM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/GU/GULjaNH3d0W7Y2Skxkko6GvJikSWUQrw7V4OwRgQgjQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gm/GmSNN1Sd_rXXLxbLanEEJFPzyg4b7sxhfHKpSwjEgPQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hn/Hnq1SCRnVtvlG01UBOleeKAVD2hgvNfhE8JmF4FUbjc.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IV/IV6UHIhCOQVrkecwQG18QIk1Qp8TlPmX6Pirl2nbw4E.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ih/IhgA7iz_GcbVEbp_LWebNXxe5cOGXzeWPGMNTbWSwVo.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JY/JYbS-sPzPjRFfPWWeBgJ9fxikhPf0hIIkpx0yYnfHzM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Kj/KjEc0XPcPaIyNY3URYm78luJ1ryNg3DG8ZLcIeG_bbk.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LC/LCBp4Ze5zlzAYkgG_bJ24aub5YR9XAY0JPo5LVLRYa8.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MQ/MQvu2WkmK5fiPmiWWh9vFx8c8KO06YdiLMC4NJfnyI4.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mb/MbjmSmaskM-BbN_10IqE4wMhWzXeCayriIBdK8X_-Zc.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mf/Mf-KYplwhTa2VpmsFqXp7-XyJ62yts2PH1995L_xktQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mz/Mzso9WtsvQKZZ31YH6E10yRa4KG3-PlerV8qtrRIww4.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O0/O01K2GoJ5-LZvG9PLEMu-B_sMNFWc24dVQKsE-GXUd0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O8/O8dc7tbYHntRpS4MX0ls337n-5l0yA3y6c8XE1KLP3M.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OI/OI6uxGcnsKavdWTtwDAasU3wPx8QXhzBgV0X2n1KjMQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OI/OINAEEt02PoY5knF4FV7_Llguf40m3Flp4L4xmuVRSw.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oe/OelRQtQVLMCmcY0VJlrL_TRLh4rMrUPlkPcMcCze6fg.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ol/OlM529r0hxaODH0eiw86br8wg6tKxgMBQzemNG1aQUE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/PV/PVF_FbhdEifdj5ZTpQHcQgpGKLc_NQd_0mVBdbRltCQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Pm/Pm3ENYpCrQMOJGd-d8lACN_nbGZWiivq_KyPLJoD9Xk.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Qe/QeWlSjlUUe26-kCJPWW1sKyemt7bkn4uYW5iyvRXvsM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rs/RsPK1dMBdLjyvNwzjsUvGGpZVe8FcnfoieHSgPkRYDQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SK/SK6KjAbxXwmzQNKHgK2l7OmkmHQ46pmKh8YimI5LMHk.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SQ/SQdZTEnc43j9feAk9Q4xy_nLitVO8oRey_WltXxwtCc.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sj/Sj72akMLWEyHrXwrGMIbQ7Eh94cyshHgYbhEogFmPPc.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sj/sjoo45PAZ_qu21lrDnKWlRsocWDSG7jCIKX8kvEPdyU.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Su/SuhtC6f7E2-1SXl4bkRvOKqhzFKTjPvbglVtjbjV6WQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T8/T8xJOjgUF5UFOiZEsNU59BsALcwPjRfZbITZxjmaozs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/TG/TGbA3jDZVQ2c4V4WxNazJd7X-0WetavbYYucCn8pqpo.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Tl/TlXQj0d6x5kncTIuFx5GuVPYXwXXJhhd9EA0W48YnOI.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/U2/U2hqccScoWGYa2GrjszSncEfXhmXA43Gazk0juYcasU.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UD/UDQG96fFcgZn8xjPiEBP_zJfZywfSSij44iaYQWcMwQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uj/UjNmHDwN-o4AWEG8GU9vGMGZ6IbkzaHt8_m5iCZZtFU.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VE/VE7Pm2o5HamaqjC7vHMq0zCKLltU11Wrr9pI7SE-j-I.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Vx/VxLTmx_PyJNywjcH1mHo-LNaiq_FLmbpwbl4sutpm_A.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XG/XG6y-Y2fWjEyLFfdQfZh8oAR_nYWNvYcal9cmYfT0KQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xc/XcrEymuxvMdRLx6xSjbX2WdMN008WRt4Qg9EJd-13TQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y4/Y4u4Wwn9ypWObjNT4dwzQtEUVtALXAMvGYXfHWoZJWw.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y9/Y9zxErQlguk1ANCv4Wf61DaMIoObhKBedHrakJ-2vLg.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/YhV_EF97uIRdIJjauC_XbgMy9FHPmzRRw5Dulvey1_k.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZW/ZWbyFuOkud7qPoCBQcyQJNw9qm6N4aBrqXvXpYD7EPg.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zx/ZxhdO8yF1buU03q8BZdu3FOeBySekRza_BiFiNo68xE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_u/_ucKWBd6RZFaoN5qsNUgFgvv4Zi22PmuARuxV7FZ-y8.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aQ/aQV7mnP-3h7DT0UonZIgL3djmY8OjpneaB6dRbQpls0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/b1/b1rdmwp4ISkDcd1Cg-13HrOayjcbXk8IRNquwIhE7x0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bh/Bh3CuZ-0Efhwp1uMnOVVnEfMLBdkmBIBE558i7SNLSQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bh/bh6rRmCYNUZxBoPgXb2eLzK6GKAUev4dbeC0k6qGNmM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/c4/c4Rr1V_QeLA_NjgAZ4EFrKDru9OhFdOzOiXHyhNVq-k.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ck/ckHeHE4K7q6OgelDrjOmLBWOSrNfmbyEW-w8bFNdWSY.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dI/dIY7ie99cPLC_2yabuqVD6fyHaktwRcG1hd92Z4QhoU.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/do/do0jU0xE7DSBOY-7rmwDszO4Pfuwl5xOUMAaiP6zHRc.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eD/eDogn83lMdEsuCMaKlnMwFq_svKyTUqkxvkhJzu_bG4.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ee/ee9ZqYM3D8GORlAyhQhVVtyNcEArBAXuuAcPhnfTNT8.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eg/egL8nyln0E6PvQdW105evWVzv08cux_vnHWCyPXZUbw.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ek/ek7PLeNP5JzpLcQ-2KNMNgkg1LpR6cKoclf7c5pkzNU.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eu/euVtmf5_dm5J6lnGBP6-MkMxN_Bo9XLFgf9iCiHA0zI.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gZ/gZ2ACzaHY6ahlviNbN-reVJRvR4cUcuSOJDUmWXcjZs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hU/hUWRPHC5hHoCDJtWQsLNrfo7MAG670r25OeaJDB_Up0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hp/hpRPfbrFippkw35r9c19iR9OQ6XePFdvvWOXsDhwQG8.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iB/iBRfNS9nDSgisKk_cjdKt0Jcou4Diw1yjfEc3JAGfow.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kN/kN38UP2c5Jgs-ZhGbChGvrOWVYIvkBjWFPSX0CHjI94.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kS/kSkCWaAJCcTgZ_AhrRCjZhNtkE12cubiq70uNtditqk.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/l0/l05uYr1oA6nGfe1hZbkybSbm8ptBj9JPyForZErttKY.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/m8/m8RV6Jib53pxfhAQaiTgUFJpfYn-raiX_ujaG-cnyP0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/n0/n0IZ53EmN1Xx5b_sWmFpXKVz8h4PBNPaaHDZsP4pW0A.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nh/nh9aWCoHT6XyJi94dydrQ1dhCkzXIJHj8iQcCHzV3ZM.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nu/nukbh6KQ5xzppj7j_QVeS2tZdQHBbxyuTO1WSIjTSn4.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oJ/oJHF0py3_3nLvQEjWs4gbq7ZUXBHWBbUI03yXKq3c4Q.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pT/pTrP0TtSrNsYRiRSOuz07WjjCKCDwKJZJSdhbe13MVA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pW/pW8jfEeVFG8k9lFcY1mcaKrDagw-j2DE6BL027pZXuo.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pp/ppGPeT6GKWvzBtU4r2rtXAaDYK6H_dt_9j2-ImtV14g.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/q0/q0GIZB5Iihxtg5zV4Jsu8fpZZtSOUQBnux7Y0o3XYTE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/q3/q3-7tNBtwCaSttt-CkhZucDTgUXaI3-AjSYUlet10DE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/r7/r79ED-aXDBmjmYnaI2sVQN_7VtDY8aFy5EPNuML9btQ.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rr/rrLfOouRn8yzTclXO2sZWo91T2Yy4QpENeJdhcUCwCs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/s_/s_PSvV3TRyttxwGoy0LrzEJ4N6gHV-ZxNleGDSxnxBE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sa/saFdY6btJAe4P8n6xS79NOaFapd86EO3bo5sI7tUERs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uS/uSt_Ip8vdnrICLft12xemaHLqyWUqFf0yPCNS7bE4AY.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vp/VprGALyQZulywO1oYHP4Q4VWXfWjconigPBvqPIbzYA.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vp/vpD8bhlwQn--WrLwPQyBDburkYt_9pyCHmd0E2kPsug.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/w1/w1HvbZt0jrMA-WyopqbcnzG-Qdb6VU9sDnlNToKa3VE.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/w7/w70pkG2sL6ME5duRApAMSW-HF7EcwuKWtIKmnnSemXI.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yM/yMYGpQn35UgE7AbLeL-F_08T5gXDuH9nbqo2lhSSE3w.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yf/yfQmmYmUAWXh06ZDJe6kLd_qQdPIBsdeLQQS7iUz6_s.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zV/zVRIDCObrJkHmwPtWTf5sAv2RyKXeucoPg4cT0HCWh0.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zV/zvlRRrukTg8WrYSalma5cattw9q3LyKlq3k6R3x3tyI.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/All_tests_in_db__ptreservation_server.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/All_tests_in_ptreservation_server__ptreservation_server.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ptreservation-server.iml" afterPath="$PROJECT_DIR$/.idea/ptreservation-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/src.iml" afterPath="$PROJECT_DIR$/src/.idea/src.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gemfile" afterPath="$PROJECT_DIR$/src/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gemfile.lock" afterPath="$PROJECT_DIR$/src/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/controllers/login_controller.rb" afterPath="$PROJECT_DIR$/src/app/controllers/login_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/controllers/tokens_controller.rb" afterPath="$PROJECT_DIR$/src/app/controllers/tokens_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db/schema.rb" afterPath="$PROJECT_DIR$/src/db/schema.rb" />
     </list>
     <ignored path="ptreservation-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -273,7 +27,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ptreservation-server@All_tests_in_ptreservation_server__ptreservation_server.coverage" NAME="All tests in ptreservation-server: ptreservation-server Coverage Results" MODIFIED="1460448103321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ptreservation-server" />
+    <SUITE FILE_PATH="coverage/ptreservation-server@All_tests_in_ptreservation_server__ptreservation_server.coverage" NAME="All tests in ptreservation-server: ptreservation-server Coverage Results" MODIFIED="1467089136371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ptreservation-server" />
+    <SUITE FILE_PATH="coverage/ptreservation-server@All_tests_in_db__ptreservation_server.coverage" NAME="All tests in db: ptreservation-server Coverage Results" MODIFIED="1467088987431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" MODULE_NAME="ptreservation-server" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -283,9 +38,9 @@
     <favorites_list name="ptreservation-server" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="20160414073943_fix_column_users.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414073943_fix_column_users.rb">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -294,11 +49,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20160414073730_create_users.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414073730_create_users.rb">
+      <file leaf-file-name="companies_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/companies_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customers_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/customers_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/login_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tokens_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/tokens_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reservations_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/reservations_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainers_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/trainers_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/helpers/users_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -362,19 +197,23 @@
         <option value="$PROJECT_DIR$/app/views/trainers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/trainers/show.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/helpers/trainers_helper.rb" />
+        <option value="$PROJECT_DIR$/src/app/views/customers/_form.html.erb" />
+        <option value="$PROJECT_DIR$/src/config/routes.rb" />
+        <option value="$PROJECT_DIR$/src/app/controllers/login_controller.rb" />
+        <option value="$PROJECT_DIR$/src/app/controllers/tokens_controller.rb" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="28" />
-    <option name="width" value="1400" />
-    <option name="height" value="833" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -401,6 +240,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ptreservation-server">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -467,22 +324,176 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ptreservation-server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trainers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptreservation-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -493,38 +504,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="test_mo&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/app/controllers/test_models_controller.rb&#10;new.&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/app/views/users/new.html.erb&#10;index.&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/app/views/users/index.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/src/config/routes.rb&#10;test_mo&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/app/controllers/test_models_controller.rb&#10;new.&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/app/views/users/new.html.erb&#10;index.&#9;FILE&#9;file:///Users/user1/Documents/dev/ptreservation-server/app/views/users/index.html.erb" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in ptreservation-server: ptreservation-server">
-    <configuration default="false" name="All tests in ptreservation-server: ptreservation-server" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="ptreservation-server" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*}.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -680,14 +664,36 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in ptreservation-server: ptreservation-server" />
+    <configuration default="false" name="Unnamed" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="ptreservation-server" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in ptreservation-server: ptreservation-server" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in db: ptreservation-server" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in ptreservation-server: ptreservation-server" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -711,21 +717,19 @@
       <workItem from="1460374575953" duration="7600000" />
       <workItem from="1460618106787" duration="9000" />
       <workItem from="1460619722848" duration="9000" />
+      <workItem from="1465120065186" duration="17000" />
+      <workItem from="1465120103650" duration="1044000" />
+      <workItem from="1465121330889" duration="14325000" />
+      <workItem from="1467088965959" duration="289000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.04.08 at 16h 37m 06s.xml">
-      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="All_tests_in_db__ptreservation-server - 2016.06.28 at 13h 43m 00s.xml">
+      <configuration name="All tests in db: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.04.08 at 16h 45m 34s.xml">
-      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.04.08 at 16h 46m 10s.xml">
-      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.04.08 at 16h 46m 53s.xml">
-      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="All_tests_in_db__ptreservation-server - 2016.06.28 at 13h 43m 07s.xml">
+      <configuration name="All tests in db: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.04.11 at 20h 28m 16s.xml">
       <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
@@ -736,31 +740,46 @@
     <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.04.12 at 17h 01m 45s.xml">
       <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.06.05 at 18h 58m 45s.xml">
+      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.06.05 at 18h 58m 52s.xml">
+      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.06.05 at 18h 59m 00s.xml">
+      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.06.28 at 13h 44m 54s.xml">
+      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_ptreservation-server__ptreservation-server - 2016.06.28 at 13h 45m 38s.xml">
+      <configuration name="All tests in ptreservation-server: ptreservation-server" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13417000" />
+    <option name="totallyTimeSpent" value="29092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="28" width="1400" height="833" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3013889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.50285715" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31294963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.49714285" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.49714285" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -779,42 +798,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/companies/edit.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/test_models/index.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/test_models/index.json.jbuilder" />
-    <entry file="file://$PROJECT_DIR$/app/views/test_models/new.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/helpers/reservations_helper.rb" />
-    <entry file="file://$PROJECT_DIR$/app/helpers/test_models_helper.rb" />
-    <entry file="file://$PROJECT_DIR$/app/views/test_models/show.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/companies/_form.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/trainers/new.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/reservations/index.html.erb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20160411113546_create_companies.rb" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/test_models_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/app/views/companies/show.json.jbuilder" />
-    <entry file="file://$PROJECT_DIR$/app/views/companies/index.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/companies/index.json.jbuilder" />
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.json.jbuilder" />
-    <entry file="file://$PROJECT_DIR$/app/views/reservations/index.json.jbuilder" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/companies_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb" />
-    <entry file="file://$PROJECT_DIR$/app/views/trainers/_form.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/controllers/reservations_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/trainer.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/company.rb" />
-    <entry file="file://$PROJECT_DIR$/app/models/reservation.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20160411120347_remove_reservation_datetime_from_reservations.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20160411120601_add_start_datetime_to_reservations.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20160412092745_fix_column_name.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20160412093513_fix_column_type2.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20160412093211_fix_column_type.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20160411113108_create_users.rb" />
@@ -828,7 +811,126 @@
     <entry file="file://$PROJECT_DIR$/app/helpers/trainers_helper.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20160411114435_create_trainers.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20160411114502_create_reservations.rb" />
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414073730_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414073943_fix_column_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414075359_create_companies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/customers/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414080821_create_customers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160418075151_fix_column_company.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414075832_change_users_column.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414075709_change_company_column.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/login_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/trainers/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/trainers/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160419052526_add_column_customers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160421072930_add_column_reservations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/trainer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -836,10 +938,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/migrate/20160414073730_create_users.rb">
+    <entry file="file://$PROJECT_DIR$/src/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/company.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/customers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-866">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/companies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-746">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/reservations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/tokens_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/trainers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-956">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-671">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/companies_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/customers_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/login_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/tokens_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/reservations_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/trainers_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RUBY_MODULE" version="4">
   <component name="ModuleRunConfigurationManager">
-    <configuration default="false" name="All tests in ptreservation-server: ptreservation-server" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration default="false" name="Unnamed" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="ptreservation-server" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All tests in ptreservation-server: ptreservation-server" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="ptreservation-server" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -30,6 +55,35 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="false" name="All tests in db: ptreservation-server" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="ptreservation-server" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/src/db" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/src/db" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
@@ -44,28 +98,30 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.6, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap3-rails (v3.2.0, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.11.2, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="byebug (v8.2.3, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.5, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.1, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.10.0, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.1, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.2, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.6.0, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.6, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.4.1, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.5.0, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.1.1, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.3, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.4, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.0, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0221, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.1, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.0.0, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.8.4, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.2, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.9.0, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.1, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.4.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.7.2, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, ruby-2.0.0-p645) [gem]" level="application" />
@@ -79,13 +135,13 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.22, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spring (v1.6.4, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spring (v1.7.1, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.6.0, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.0.4, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="test-unit (v2.0.0.0, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, ruby-2.0.0-p645) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.2, ruby-2.0.0-p645) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.5, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v2.5.3, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, ruby-2.0.0-p645) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v3.0.0, ruby-2.0.0-p645) [gem]" level="application" />

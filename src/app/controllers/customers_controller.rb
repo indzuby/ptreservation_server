@@ -1,5 +1,12 @@
 class CustomersController < ApplicationController
   before_action :set_customer, only: [:show, :edit, :update, :destroy]
+  # before_action :checked_login
+
+
+  def get_customer_by_trainer
+    @customers = Customer.where("trainer_id = ?",params[:trainer_id])
+    render :json => @customers,:include => :user ,status: :ok
+  end
 
   # GET /customers
   # GET /customers.json
@@ -27,7 +34,7 @@ class CustomersController < ApplicationController
 
     @user = User.new(users_params)
     @user.save
-    @customer = Customer.new
+    @customer = Customer.new(customer_params)
     @customer.user_id = @user.id
     @customer.created_at = @user.created_at
     @customer.updated_at = @user.updated_at

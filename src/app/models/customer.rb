@@ -1,6 +1,8 @@
 class Customer < ActiveRecord::Base
   belongs_to :user
-  has_many :trainer, :through => :reservation
+  belongs_to :trainer
+
+  has_many :reservation
 
 
   attr_accessor :email,:password,:name,:sex,:tel

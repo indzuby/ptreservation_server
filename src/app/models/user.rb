@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
   has_many :token
+  has_many :customers
+  has_many :trainers
 
   before_create :set_encryption
 
