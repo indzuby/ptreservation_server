@@ -12,9 +12,9 @@ class LoginController < ApplicationController
       customer = Customer.find_by_user_id(usr.id)
       trainer = Trainer.find_by_user_id(usr.id)
       if customer.nil?
-        render :json => {:name => usr.name,:id => trainer.id}, status: 200
+        render :json => {:name => usr.name,:id => trainer.id,:user_id => usr.id}, status: 200
       else
-        render :json => {:name => usr.name,:id => customer.id}, status: 201
+        render :json => {:name => usr.name,:id => customer.id,:trainer_id => customer.trainer_id,:user_id => usr.id}, status: 201
       end
 
     else
@@ -43,7 +43,7 @@ class LoginController < ApplicationController
       render nothing: true, status: :no_content
     else
       user = @usr
-      user.password = params[:password]
+      user.password = Digest::SHA1.hexdigest(params[:password])
       user.save
       render nothing: true, status: :ok
     end

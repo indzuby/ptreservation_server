@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Trainer</th>
       <th>Name</th>
       <th>Email</th>
       <th>Tel</th>
@@ -21,6 +22,7 @@
       <% else %>
           <tr>
       <% end %>
+      <td><%= customer.trainer.user.name %></td>
         <td><%= customer.user.name %></td>
       <td><%= customer.user.email %></td>
       <td><%= customer.user.tel %></td>

@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :destroy]
 
   # GET /users
   # GET /users.json
@@ -40,16 +40,22 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
-    respond_to do |format|
-      if @user.update(user_params)
-        format.html { redirect_to @user, notice: 'User was successfully updated.' }
-        format.json { render :show, status: :ok, location: @user }
-      else
-        format.html { render :edit }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
+    user = User.find(params[:user][:id])
+    if user.update(user_params)
+      render nothing: true, status: :ok
     end
   end
+
+  def updateWithPassword
+    user = User.find(params[:user][:id])
+    user.name = params[:user][:name]
+    user.tel = params[:user][:tel]
+    user.password = Digest::SHA1.hexdigest(params[:user][:password])
+    if user.save
+      render nothing: true, status: :ok
+    end
+  end
+
 
   # DELETE /users/1
   # DELETE /users/1.json
@@ -71,4 +77,7 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:email, :password, :name, :tel, :sex)
     end
+  def user_edit_params
+    params.require(:user).permit(:name, :tel)
+  end
 end

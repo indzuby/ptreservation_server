@@ -1,10 +1,10 @@
 class CustomersController < ApplicationController
-  before_action :set_customer, only: [:show, :edit, :update, :destroy]
+  before_action :set_customer, only: [:show, :edit, :destroy]
   # before_action :checked_login
 
 
   def get_customer_by_trainer
-    @customers = Customer.where("trainer_id = ?",params[:trainer_id])
+    @customers = Customer.where("trainer_id = ?",params[:trainer_id]).order(:pt_count => "desc")
     render :json => @customers,:include => :user ,status: :ok
   end
 
@@ -17,6 +17,8 @@ class CustomersController < ApplicationController
   # GET /customers/1
   # GET /customers/1.json
   def show
+    @customers = Customer.find(params[:id])
+    render :json => @customers,:include => [:user ,:trainer => {:include => :user}] ,status: :ok
   end
 
   # GET /customers/new
@@ -26,6 +28,10 @@ class CustomersController < ApplicationController
 
   # GET /customers/1/edit
   def edit
+    @customer.name = @customer.user.name
+    @customer.email = @customer.user.email
+    @customer.tel = @customer.user.tel
+    @customer.sex = @customer.user.sex
   end
 
   # POST /customers
@@ -35,6 +41,7 @@ class CustomersController < ApplicationController
     @user = User.new(users_params)
     @user.save
     @customer = Customer.new(customer_params)
+    @customer.trainer_id = params[:customer][:trainer_id]
     @customer.user_id = @user.id
     @customer.created_at = @user.created_at
     @customer.updated_at = @user.updated_at
@@ -53,13 +60,24 @@ class CustomersController < ApplicationController
   # PATCH/PUT /customers/1
   # PATCH/PUT /customers/1.json
   def update
+    customer = Customer.find(params[:id])
+    user = User.find(customer.user_id)
+    user.name = params[:customer][:name]
+    user.email = params[:customer][:email]
+    user.tel = params[:customer][:tel]
+    user.sex = params[:customer][:sex]
+    if params[:customer][:password].length>0
+      user.password = Digest::SHA1.hexdigest(params[:customer][:password])
+    end
+    customer.trainer_id = params[:customer][:trainer_id]
+    customer.pt_count = params[:customer][:pt_count]
     respond_to do |format|
-      if @customer.update(customer_params)
-        format.html { redirect_to @customer, notice: 'Customer was successfully updated.' }
-        format.json { render :show, status: :ok, location: @customer }
+      if customer.save and user.save
+        format.html { redirect_to customer, notice: 'Customer was successfully created.' }
+        format.json { render :show, status: :created, location: customer }
       else
-        format.html { render :edit }
-        format.json { render json: @customer.errors, status: :unprocessable_entity }
+        format.html { render :new }
+        format.json { render json: customer.errors, status: :unprocessable_entity }
       end
     end
   end

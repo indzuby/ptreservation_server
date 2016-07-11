@@ -30,6 +30,11 @@ Rails.application.routes.draw do
     get 'trainers/:trainer_id/customers' => :get_customer_by_trainer, as: 'customerListByTrainerId'
   end
 
+  controller :users do
+    put 'users/update/withPassword' => :updateWithPassword, as: 'updateWithPassword'
+    put 'users/update/info'=> :update, as: 'updateUser'
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
