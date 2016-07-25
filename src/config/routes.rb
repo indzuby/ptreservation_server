@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'login/index'
+
   resources :reservations
   resources :tokens
   resources :trainers
@@ -6,6 +8,7 @@ Rails.application.routes.draw do
   resources :companies
   resources :users
 
+  get '/' => 'login#index'
 
   controller :login do
     post 'login/login' => :login, as: 'login'

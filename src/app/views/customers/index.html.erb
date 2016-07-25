@@ -17,7 +17,7 @@
 
   <tbody>
     <% @customers.each do |customer| %>
-      <% if customer.is_delete %>
+      <% if customer.is_delete ==1%>
           <tr class="text-danger">
       <% else %>
           <tr>

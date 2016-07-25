@@ -54,10 +54,10 @@ class CompaniesController < ApplicationController
   # DELETE /companies/1
   # DELETE /companies/1.json
   def destroy
-    if(@company.is_delete == true)
+    if(@company.is_delete == 1)
       @company.destroy
     else
-      @company.is_delete = true
+      @company.is_delete = 1
       @company.save
     end
     respond_to do |format|

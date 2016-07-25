@@ -15,7 +15,7 @@
 
   <tbody>
       <% @companies.each do |company| %>
-      <% if company.is_delete %>
+      <% if company.is_delete == 1%>
       <tr class="text-danger">
       <% else %>
       <tr>

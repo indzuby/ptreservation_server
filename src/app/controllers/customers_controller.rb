@@ -48,7 +48,7 @@ class CustomersController < ApplicationController
 
     respond_to do |format|
       if @customer.save
-        format.html { redirect_to @customer, notice: 'Customer was successfully created.' }
+        format.html { redirect_to '/customers', notice: 'Customer was successfully created.' }
         format.json { render :show, status: :created, location: @customer }
       else
         format.html { render :new }
@@ -73,7 +73,7 @@ class CustomersController < ApplicationController
     customer.pt_count = params[:customer][:pt_count]
     respond_to do |format|
       if customer.save and user.save
-        format.html { redirect_to customer, notice: 'Customer was successfully created.' }
+        format.html { redirect_to '/customers', notice: 'Customer was successfully created.' }
         format.json { render :show, status: :created, location: customer }
       else
         format.html { render :new }
@@ -85,9 +85,14 @@ class CustomersController < ApplicationController
   # DELETE /customers/1
   # DELETE /customers/1.json
   def destroy
-    user_id = @customer.user_id
-    @customer.destroy
-    User.delete(user_id)
+    if @customer.is_delete == 1
+      user_id = @customer.user_id
+      @customer.destroy
+      User.destroy(user_id)
+    else
+      @customer.is_delete = 1
+      @customer.save
+    end
     respond_to do |format|
       format.html { redirect_to customers_url, notice: 'Customer was successfully destroyed.' }
       format.json { head :no_content }

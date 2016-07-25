@@ -5,9 +5,12 @@ class TrainersController < ApplicationController
   # GET /trainers.json
   def index
     @trainers = Trainer.all
-    render :json => @trainers,:include => [:company,:user] ,status: :ok
   end
 
+  def list
+    @trainers = Trainer.all
+    render :json => @trainers,:include => [:company,:user] ,status: :ok
+  end
   # GET /trainers/1
   # GET /trainers/1.json
   def show
@@ -23,6 +26,10 @@ class TrainersController < ApplicationController
 
   # GET /trainers/1/edit
   def edit
+    @trainer.name = @trainer.user.name
+    @trainer.email = @trainer.user.email
+    @trainer.tel = @trainer.user.tel
+    @trainer.sex = @trainer.user.sex
   end
 
   # POST /trainers
@@ -38,7 +45,7 @@ class TrainersController < ApplicationController
 
     respond_to do |format|
       if @trainer.save
-        format.html { redirect_to @trainer, notice: 'Trainer was successfully created.' }
+        format.html { redirect_to '/trainers', notice: 'Trainer was successfully created.' }
         format.json { render :show, status: :created, location: @trainer }
       else
         format.html { render :new }
@@ -50,13 +57,22 @@ class TrainersController < ApplicationController
   # PATCH/PUT /trainers/1
   # PATCH/PUT /trainers/1.json
   def update
+    trainer = Trainer.find(params[:id])
+    user = User.find(trainer.user_id)
+    user.name = params[:trainer][:name]
+    user.email = params[:trainer][:email]
+    user.tel = params[:trainer][:tel]
+    user.sex = params[:trainer][:sex]
+    if params[:trainer][:password].length>0
+      user.password = Digest::SHA1.hexdigest(params[:trainer][:password])
+    end
     respond_to do |format|
-      if @user.update(users_params) && @trainer.update(trainer_params(@trainer.user_id))
-        format.html { redirect_to @trainer, notice: 'Trainer was successfully updated.' }
-        format.json { render :show, status: :ok, location: @trainer }
+      if trainer.save and user.save
+        format.html { redirect_to '/trainers', notice: 'Customer was successfully created.' }
+        format.json { render :show, status: :created, location: trainer }
       else
-        format.html { render :edit }
-        format.json { render json: @trainer.errors, status: :unprocessable_entity }
+        format.html { render :new }
+        format.json { render json: trainer.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -64,12 +80,12 @@ class TrainersController < ApplicationController
   # DELETE /trainers/1
   # DELETE /trainers/1.json
   def destroy
-    if @trainer.is_delete == true
+    if @trainer.is_delete == 1
       user_id = @trainer.user_id
       @trainer.destroy
-      User.delete(user_id)
+      User.destroy(user_id)
     else
-      @trainer.is_delete = true
+      @trainer.is_delete = 1
       @trainer.save
     end
     respond_to do |format|

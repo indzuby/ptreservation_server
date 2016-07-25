@@ -49,4 +49,7 @@ class LoginController < ApplicationController
     end
   end
 
+  def index
+
+  end
 end
